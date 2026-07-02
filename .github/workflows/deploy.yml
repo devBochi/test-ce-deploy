@@ -15,7 +15,7 @@ jobs:
           api-key: ${{ secrets.IBM_IAM_API_KEY }}
           resource-group: 'Default'
           region: '<tu-region, ej us-south>'
-          project: 'test-deploy-ce'
+          project: 'code-engine-inco'
           component: 'app'
           name: 'test-ce-deploy'
           build-source: './'
